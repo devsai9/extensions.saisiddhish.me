@@ -13,3 +13,23 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.card-wrapper {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card:hover {
+    box-shadow: 10px 10px #e3e2da;
+    text-decoration: underline;
+}
+
+.card {
+    max-width: 500px;
+    background-color: #2f313e;
+    padding: 3px 10px 3px 10px;
+    border-radius: 20px;
+}
+
