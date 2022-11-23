@@ -3,7 +3,7 @@
 body {
     background-color: #1c1d25;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 #main {
@@ -23,7 +23,6 @@ body {
 
 .card:hover {
     box-shadow: 10px 10px #e3e2da;
-    text-decoration: underline;
 }
 
 .card {
@@ -33,3 +32,6 @@ body {
     border-radius: 20px;
 }
 
+.title {
+    text-decoration: underline;
+}
